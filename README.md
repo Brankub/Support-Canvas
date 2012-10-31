@@ -17,7 +17,6 @@ Path to the support window - localhost:8080/support.html
 
 During testing on one computer please be sure that two tabs are in one browser window.
 
-## author Ivan Kubrakov
 
 ## TODO
 1. Remove all jQuery functions from front-end support.
