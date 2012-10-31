@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Support</title>
+	<meta charset="utf-8" />
+    <meta name="keywords" content="" />
+	<meta name="description" content="" />
+    <link rel="stylesheet" href="/media_support/css/admin.css">
+</head>
+<body>
+	<div class="main clearfix">
+    	<div class="chat_column">
+        	<div class="chat_over">
+                <input id="messageInput" type="text" class="send_message" />
+                <ul class="chat_list" id="supportChat"></ul>
+            </div>
+        </div>
+        <div class="image_column">
+        	<h1>Support</h1>
+            <p class="muted" id="infoMessage">Нет запросов от посетителей</p>
+            <div id="screenArea" class="screen_area">
+            	<a class="btn-success" id="newScreen">Сделать новый скриншот</a>
+            </div>
+        </div>
+    </div>
+	<script src="/media_support/js/jquery-1.8.2.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/media_support/js/admin_support.js"></script>
+</body>
+</html>

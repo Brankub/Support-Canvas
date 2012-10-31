@@ -1,0 +1,19 @@
+{
+  "name": "Support",
+  "version": "0.0.0",
+  "description": "Support with sockets and canvas",
+  "main": "./api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Brankub/Support-Canvas.git"
+  },
+  "dependencies":{
+    "node-static":"latest",
+    "socket.io":"latest"
+  },
+  "author": "Ivan Kubrakov <i.kubrakov@gmail.com>",
+  "license": "BSD"
+}

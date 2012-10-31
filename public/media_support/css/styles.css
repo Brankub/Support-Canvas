@@ -1,0 +1,106 @@
+/* Chat style */
+.chat_container{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0;
+	right: 30px;
+	background: #FFF;
+	padding: 20px;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 0 2px rgba(0,0,0,0.7);
+	z-index: 9999;
+	}
+.chat_list{
+	width: 200px;
+	max-height: 200px;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+	}	
+.chat_item{
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	}
+.chat_item.me{
+	color: #666;
+	}
+.send_message{
+	display: none;
+	background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	border-radius: 3px 3px 3px 3px;
+    color: #555555;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 10px;
+	width: 178px;
+	}
+.active .send_message{
+    display: inline-block;
+	}
+.waiting_label{
+	display: none;
+	}
+.waiting .waiting_label{
+	display: block;
+	background: url(../img/loading.gif) 100% 2px no-repeat;
+	}
+.active .waiting_label{
+	display: none;
+	}
+.start_chat{
+	cursor: pointer;
+	height: 24px;
+	border-radius: 3px;
+	display: block;
+	text-align: center;
+	line-height: 24px;	
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+	border-bottom: 1px solid #7eca48;
+	border-top: 1px solid #d7eb96;
+	background: #bddf59; /* Old browsers */
+	background: -moz-linear-gradient(top,  #bddf59 0%, #7eca48 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bddf59), color-stop(100%,#7eca48)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #bddf59 0%,#7eca48 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #bddf59 0%,#7eca48 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #bddf59 0%,#7eca48 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #bddf59 0%,#7eca48 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bddf59', endColorstr='#7eca48',GradientType=0 ); /* IE6-9 */
+	}
+a.start_chat:hover{
+	background: #c6db83; /* Old browsers */
+	background: -moz-linear-gradient(top,  #c6db83 0%, #87c659 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c6db83), color-stop(100%,#87c659)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #c6db83 0%,#87c659 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #c6db83 0%,#87c659 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #c6db83 0%,#87c659 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #c6db83 0%,#87c659 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6db83', endColorstr='#87c659',GradientType=0 ); /* IE6-9 */
+	}
+a.start_chat:active{
+	background: #7eca48; /* Old browsers */
+	background: -moz-linear-gradient(top,  #7eca48 0%, #bddf59 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7eca48), color-stop(100%,#bddf59)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #7eca48 0%,#bddf59 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #7eca48 0%,#bddf59 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #7eca48 0%,#bddf59 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #7eca48 0%,#bddf59 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7eca48', endColorstr='#bddf59',GradientType=0 ); /* IE6-9 */
+	}
+.show_cursor{
+	display: none;
+	background: #a80f35;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	margin: -12px 0 0 -12px;
+	position: absolute;
+	}
