@@ -125,7 +125,7 @@ Chat.prototype = {
 };
 
 var FrontChat = new Chat({
-	controlHhtml: '<div class="chat_container" id="chatContainer"><a onClick="FrontChat.askChat(this)" class="start_chat">Слудба поддержки</a><div class="waiting_label">Ожидаем оператора</div><ul class="chat_list" id="supportChat"></ul><input id="messageInput" type="text" class="send_message" /></div><div class="show_cursor"></div>',
+	controlHhtml: '<div class="chat_container" id="chatContainer"><a onClick="FrontChat.askChat(this)" class="start_chat">Служба поддержки</a><div class="waiting_label">Ожидаем оператора</div><ul class="chat_list" id="supportChat"></ul><input id="messageInput" type="text" class="send_message" /></div><div class="show_cursor"></div>',
 	langTextMe: 'Я',
 	langTextSupport: 'Оператор',
 	styles: 'media_support/css/styles.css'
