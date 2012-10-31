@@ -1,6 +1,10 @@
 Support Canvas
 ==============
 
+## Browsers
+
+Latest Chrome/Firefox.
+
 ## How to start locally
 
 1. Download and install nodejs http://nodejs.org/download/
