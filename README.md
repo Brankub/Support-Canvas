@@ -13,6 +13,7 @@ Support Canvas
 Application will start on localhost:8080. 
 
 Path to the demo (html markup + support button) - localhost:8080/client.html
+
 Path to the support window - localhost:8080/support.html
 
 During testing on one computer please be sure that two tabs are in one browser window.
