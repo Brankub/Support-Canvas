@@ -3,7 +3,7 @@ Support Canvas
 
 ## Browsers
 
-Latest Chrome/Firefox.
+Latest Chrome/Firefox/IE.
 
 ## How to start locally
 
