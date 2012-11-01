@@ -24,9 +24,7 @@ During testing on one computer please be sure that two tabs are in one browser w
 
 
 ## TODO
-1. Clean up JS code/css. 
-2. Check generation of images.
-3. Add additional methods, rooms.
-4. Create normal admin part.
-5. Database save chats by login(user's email).
-6. Browsers support.
+1. Add additional methods, rooms.
+2. Create normal admin part.
+3. Database save chats by login(user's email).
+4. Nice design create.
