@@ -13,6 +13,7 @@ Latest Chrome/Firefox/IE.
 4. ```cd Support-Canvas```,```npm install```
 5. ```npm start```
 6. ```node app```
+7. Create folder 'tmp' in 'public' folder.
 
 Application will start on localhost:8080. 
 
